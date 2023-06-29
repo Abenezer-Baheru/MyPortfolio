@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #272829;
 }
 
@@ -16,8 +16,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -79,9 +84,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -134,7 +140,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   white-space: nowrap;
 }
-.nav-menu a, .nav-menu a:focus {
+.nav-menu a,
+.nav-menu a:focus {
   display: flex;
   align-items: center;
   color: #a8a9b4;
@@ -143,16 +150,23 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
 }
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu a i,
+.nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
 }
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -191,11 +205,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url('../img/hero-bg.jpg') top center;
   background-size: cover;
 }
 #hero:before {
-  content: "";
+  content: '';
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
@@ -220,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #hero p span {
   color: #fff;
@@ -269,7 +283,7 @@ section {
   color: #173b6c;
 }
 .section-title h2::after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 50px;
@@ -337,7 +351,7 @@ section {
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #122f57;
 }
@@ -347,7 +361,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   transition: ease-in-out 0.3s;
 }
 .facts .count-box a:hover {
@@ -370,7 +384,7 @@ section {
   display: block;
   font-weight: 600;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #050d18;
 }
 .skills .progress .skill .val {
@@ -409,7 +423,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
@@ -431,7 +445,7 @@ section {
   padding-bottom: 0;
 }
 .resume .resume-item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 16px;
@@ -442,14 +456,14 @@ section {
   border: 2px solid #1f5297;
 }
 /* # Dowload resume sections */
-.resumeDownload{
+.resumeDownload {
   color: #050d18;
   box-sizing: border-box;
   display: block;
-  background-color: #F2F5F8;
+  background-color: #f2f5f8;
   padding: 20px 0;
 }
-.btn{
+.btn {
   background-color: #333231;
 }
 
@@ -480,7 +494,8 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 .portfolio #portfolio-flters li:last-child {
@@ -493,7 +508,7 @@ section {
   z-index: 1;
 }
 .portfolio .portfolio-wrap::before {
-  content: "";
+  content: '';
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
   left: 0;
@@ -554,14 +569,20 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #149ddd;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
 .portfolio-details .portfolio-info {
@@ -703,7 +724,9 @@ section {
   background: #149ddd;
   color: #fff;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
@@ -713,8 +736,8 @@ section {
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
-.contact{
-  background-color: #F2F5F8;
+.contact {
+  background-color: #f2f5f8;
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
@@ -752,7 +775,7 @@ section {
   padding: 15px;
 }
 .contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -769,7 +792,8 @@ section {
 .contact .php-email-form label {
   padding-bottom: 8px;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -780,7 +804,7 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 15px;
 }
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type='submit'] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -788,7 +812,7 @@ section {
   transition: 0.4s;
   border-radius: 4px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type='submit']:hover {
   background: #37b3ed;
 }
 @-webkit-keyframes animate-loading {
@@ -834,7 +858,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
-  content: "/";
+  content: '/';
 }
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
